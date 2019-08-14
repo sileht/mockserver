@@ -54,7 +54,7 @@ public class KeyAndCertificateFactory {
      * certificates. Thoughts: 2048 takes much longer time on older CPUs. And
      * for almost every client, 1024 is sufficient.
      */
-    private static final int FAKE_KEYSIZE = 1024;
+    private static final int FAKE_KEYSIZE = 2048;
     /**
      * Current time minus 1 year, just in case software clock goes back due to
      * time synchronization
